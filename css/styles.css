@@ -1,0 +1,56 @@
+body {
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.user-container {
+  display: flex;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.user-list,
+.information {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.containerInputText {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.input-name {
+  margin-top: -6px !important;
+  margin-left: 10px !important;
+}
+
+.my-title {
+  text-align: center;
+}
+
+.highlight {
+  background-color: yellow;
+}
